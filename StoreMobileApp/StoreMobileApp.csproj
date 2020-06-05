@@ -99,6 +99,12 @@
     <Compile Include="PresentationLayer\FrmCatag.Designer.cs">
       <DependentUpon>FrmCatag.cs</DependentUpon>
     </Compile>
+    <Compile Include="PresentationLayer\Frmdevice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Frmdevice.Designer.cs">
+      <DependentUpon>Frmdevice.cs</DependentUpon>
+    </Compile>
     <Compile Include="PresentationLayer\FrmService.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +143,9 @@
     <EmbeddedResource Include="PresentationLayer\FrmCatag.resx">
       <DependentUpon>FrmCatag.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Frmdevice.resx">
+      <DependentUpon>Frmdevice.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PresentationLayer\FrmService.resx">
       <DependentUpon>FrmService.cs</DependentUpon>
     </EmbeddedResource>
@@ -155,6 +164,7 @@
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Brands.datasource" />
+    <None Include="Properties\DataSources\Devices.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

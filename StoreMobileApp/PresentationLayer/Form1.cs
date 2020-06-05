@@ -166,6 +166,12 @@ namespace StoreMobileApp
 
         }
 
+        private void button8_Click(object sender, EventArgs e)
+        {
+            FormContainer(new Frmdevice());
+
+        }
+
         private void button4_Click(object sender, EventArgs e)
         {
             FormContainer(new frmSupliers());

@@ -20,36 +20,7 @@ namespace StoreMobileApp.PresentationLayer
             button1_Click(null,null);
             fill_GridView();
         }
-        void fill_GridView()
-        {
-            dataGridView1.DataSource = DB.Brands.ToList();
-        }
-        void clear_txt()
-        {
-             txt_name.Text = txt_details.Text = string.Empty;
-        }
-        void AddBrand()
-        {
-            Brands B = new Brands()
-            {
-                BrandID = DB.Brands.Select(x => x.BrandID).Max() + 1,
-                BrandName = txt_name.Text,
-                BrandNotes = txt_details.Text,
-            };
-            DB.Brands.Add(B);
-            DB.SaveChanges();
-            MessageBox.Show("تم اضافة الصنف بنجاح");
-        }
-        void UpdateBrand()
-        {
-            int id = int.Parse(txt_cat_id.Text);
-            Brands br = DB.Brands.Where(x => x.BrandID == id).SingleOrDefault();
-            br.BrandID = int.Parse(txt_cat_id.Text);
-            br.BrandName = txt_name.Text;
-            br.BrandNotes = txt_details.Text;
-            DB.SaveChanges();
-            MessageBox.Show("تم التعديل بنجاح");
-        }
+    
         private void btn_add_Click(object sender, EventArgs e)
         {
             if (txt_name.Text !="")
@@ -83,6 +54,7 @@ namespace StoreMobileApp.PresentationLayer
             clear_txt();
         }
 
+
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (dataGridView1.Columns[e.ColumnIndex].Name == "delete")
@@ -105,6 +77,18 @@ namespace StoreMobileApp.PresentationLayer
                
             }
 
+        }
+
+        private void txt_srch_TextChanged(object sender, EventArgs e)
+        {
+           if(txt_srch.Text==string.Empty)
+            {
+                fill_GridView();
+            }
+           else
+            {
+                dataGridView1.DataSource = DB.Brands.Where(x => x.BrandName.Contains(txt_srch.Text)).ToList();
+            }
         }
     }
 }

@@ -81,6 +81,12 @@
     <Compile Include="PresentationLayer\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="PresentationLayer\Formbrands\Formcatag_Operationcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Formdevice\Frmdevice_Operation.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="PresentationLayer\formsAllcs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,16 +99,16 @@
     <Compile Include="PresentationLayer\frmAddSuplier.Designer.cs">
       <DependentUpon>frmAddSuplier.cs</DependentUpon>
     </Compile>
-    <Compile Include="PresentationLayer\FrmCatag.cs">
+    <Compile Include="PresentationLayer\Formbrands\FrmCatag.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PresentationLayer\FrmCatag.Designer.cs">
+    <Compile Include="PresentationLayer\Formbrands\FrmCatag.Designer.cs">
       <DependentUpon>FrmCatag.cs</DependentUpon>
     </Compile>
-    <Compile Include="PresentationLayer\Frmdevice.cs">
+    <Compile Include="PresentationLayer\Formdevice\Frmdevice.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PresentationLayer\Frmdevice.Designer.cs">
+    <Compile Include="PresentationLayer\Formdevice\Frmdevice.Designer.cs">
       <DependentUpon>Frmdevice.cs</DependentUpon>
     </Compile>
     <Compile Include="PresentationLayer\FrmService.cs">
@@ -140,10 +146,10 @@
     <EmbeddedResource Include="PresentationLayer\frmAddSuplier.resx">
       <DependentUpon>frmAddSuplier.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PresentationLayer\FrmCatag.resx">
+    <EmbeddedResource Include="PresentationLayer\Formbrands\FrmCatag.resx">
       <DependentUpon>FrmCatag.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PresentationLayer\Frmdevice.resx">
+    <EmbeddedResource Include="PresentationLayer\Formdevice\Frmdevice.resx">
       <DependentUpon>Frmdevice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PresentationLayer\FrmService.resx">

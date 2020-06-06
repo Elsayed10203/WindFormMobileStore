@@ -36,30 +36,35 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCatag));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.txt_details = new System.Windows.Forms.TextBox();
-            this.txt_name = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.btn_add = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.txt_cat_id = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.delete = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.Update = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.btn_add = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txt_name = new System.Windows.Forms.TextBox();
+            this.txt_details = new System.Windows.Forms.TextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.brandsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.brandIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.brandNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.brandNotesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.brandsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.txt_cat_id = new System.Windows.Forms.TextBox();
+            this.delete = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.Update = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txt_srch = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.brandsBindingSource)).BeginInit();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -71,6 +76,20 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1021, 76);
             this.panel1.TabIndex = 0;
+            // 
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Bold);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.label4.Location = new System.Drawing.Point(381, 23);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(268, 37);
+            this.label4.TabIndex = 22;
+            this.label4.Text = "قائمة الاصناف ";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel2
             // 
@@ -85,86 +104,129 @@
             this.panel2.Controls.Add(this.txt_details);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel2.ForeColor = System.Drawing.Color.Black;
-            this.panel2.Location = new System.Drawing.Point(626, 76);
+            this.panel2.Location = new System.Drawing.Point(646, 76);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(395, 500);
+            this.panel2.Size = new System.Drawing.Size(375, 500);
             this.panel2.TabIndex = 1;
             // 
-            // panel3
+            // txt_cat_id
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(19)))), ((int)(((byte)(20)))));
-            this.panel3.Controls.Add(this.dataGridView1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 76);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(582, 500);
-            this.panel3.TabIndex = 2;
+            this.txt_cat_id.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(19)))), ((int)(((byte)(20)))));
+            this.txt_cat_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_cat_id.ForeColor = System.Drawing.Color.White;
+            this.txt_cat_id.Location = new System.Drawing.Point(115, 28);
+            this.txt_cat_id.Name = "txt_cat_id";
+            this.txt_cat_id.ReadOnly = true;
+            this.txt_cat_id.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txt_cat_id.Size = new System.Drawing.Size(144, 30);
+            this.txt_cat_id.TabIndex = 26;
+            this.txt_cat_id.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_details
+            // button1
             // 
-            this.txt_details.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_details.Location = new System.Drawing.Point(39, 185);
-            this.txt_details.Name = "txt_details";
-            this.txt_details.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txt_details.Size = new System.Drawing.Size(244, 26);
-            this.txt_details.TabIndex = 19;
-            this.txt_details.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txt_name
-            // 
-            this.txt_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_name.Location = new System.Drawing.Point(39, 116);
-            this.txt_name.Name = "txt_name";
-            this.txt_name.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txt_name.Size = new System.Drawing.Size(244, 26);
-            this.txt_name.TabIndex = 20;
-            this.txt_name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Tahoma", 13F);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(292, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 37);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "رقم الصنف";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Tahoma", 13F);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(292, 110);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 37);
-            this.label2.TabIndex = 22;
-            this.label2.Text = "اسم الصنف";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Tahoma", 13F);
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(283, 179);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 37);
-            this.label3.TabIndex = 23;
-            this.label3.Text = "تفاصيل";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(57)))), ((int)(((byte)(57)))));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button1.Font = new System.Drawing.Font("Tahoma", 16F);
+            this.button1.ForeColor = System.Drawing.Color.Orchid;
+            this.button1.Location = new System.Drawing.Point(15, 23);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(92, 39);
+            this.button1.TabIndex = 25;
+            this.button1.Text = "جديد";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btn_add
             // 
             this.btn_add.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(57)))), ((int)(((byte)(107)))));
             this.btn_add.Font = new System.Drawing.Font("Tahoma", 16F);
             this.btn_add.ForeColor = System.Drawing.Color.White;
-            this.btn_add.Location = new System.Drawing.Point(39, 249);
+            this.btn_add.Location = new System.Drawing.Point(15, 230);
             this.btn_add.Name = "btn_add";
             this.btn_add.Size = new System.Drawing.Size(244, 37);
             this.btn_add.TabIndex = 24;
             this.btn_add.Text = "حفظ";
             this.btn_add.UseVisualStyleBackColor = false;
             this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Tahoma", 13F);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(259, 160);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(100, 37);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "تفاصيل";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Tahoma", 13F);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(268, 91);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(100, 37);
+            this.label2.TabIndex = 22;
+            this.label2.Text = "اسم الصنف";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Tahoma", 13F);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(268, 17);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 37);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "رقم الصنف";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txt_name
+            // 
+            this.txt_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_name.Location = new System.Drawing.Point(15, 97);
+            this.txt_name.Name = "txt_name";
+            this.txt_name.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txt_name.Size = new System.Drawing.Size(244, 26);
+            this.txt_name.TabIndex = 20;
+            this.txt_name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_details
+            // 
+            this.txt_details.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_details.Location = new System.Drawing.Point(15, 166);
+            this.txt_details.Name = "txt_details";
+            this.txt_details.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txt_details.Size = new System.Drawing.Size(244, 26);
+            this.txt_details.TabIndex = 19;
+            this.txt_details.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(19)))), ((int)(((byte)(20)))));
+            this.panel3.Controls.Add(this.dataGridView1);
+            this.panel3.Controls.Add(this.panel4);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Location = new System.Drawing.Point(0, 76);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(623, 500);
+            this.panel3.TabIndex = 2;
+            // 
+            // brandsBindingSource
+            // 
+            this.brandsBindingSource.DataSource = typeof(StoreMobileApp.Brands);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.panel4.Controls.Add(this.label9);
+            this.panel4.Controls.Add(this.txt_srch);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(623, 58);
+            this.panel4.TabIndex = 16;
             // 
             // dataGridView1
             // 
@@ -204,7 +266,7 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.EnableHeadersVisualStyles = false;
             this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(45)))), ((int)(((byte)(53)))));
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 58);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
@@ -224,37 +286,29 @@
             this.dataGridView1.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(29)))), ((int)(((byte)(0)))));
             this.dataGridView1.RowTemplate.Height = 30;
             this.dataGridView1.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.Size = new System.Drawing.Size(582, 500);
-            this.dataGridView1.TabIndex = 15;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.Size = new System.Drawing.Size(623, 442);
+            this.dataGridView1.TabIndex = 17;
             // 
-            // label4
+            // brandIDDataGridViewTextBoxColumn
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Bold);
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label4.Location = new System.Drawing.Point(381, 23);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(268, 37);
-            this.label4.TabIndex = 22;
-            this.label4.Text = "قائمة الاصناف ";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.brandIDDataGridViewTextBoxColumn.DataPropertyName = "BrandID";
+            this.brandIDDataGridViewTextBoxColumn.HeaderText = "رقم الصنف";
+            this.brandIDDataGridViewTextBoxColumn.Name = "brandIDDataGridViewTextBoxColumn";
+            this.brandIDDataGridViewTextBoxColumn.Width = 120;
             // 
-            // button1
+            // brandNameDataGridViewTextBoxColumn
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(57)))), ((int)(((byte)(57)))));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.Font = new System.Drawing.Font("Tahoma", 16F);
-            this.button1.ForeColor = System.Drawing.Color.Orchid;
-            this.button1.Location = new System.Drawing.Point(39, 42);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(92, 39);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "جديد";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.brandNameDataGridViewTextBoxColumn.DataPropertyName = "BrandName";
+            this.brandNameDataGridViewTextBoxColumn.HeaderText = "اسم الصنف";
+            this.brandNameDataGridViewTextBoxColumn.Name = "brandNameDataGridViewTextBoxColumn";
+            this.brandNameDataGridViewTextBoxColumn.Width = 130;
+            // 
+            // brandNotesDataGridViewTextBoxColumn
+            // 
+            this.brandNotesDataGridViewTextBoxColumn.DataPropertyName = "BrandNotes";
+            this.brandNotesDataGridViewTextBoxColumn.HeaderText = "تفاصيل";
+            this.brandNotesDataGridViewTextBoxColumn.Name = "brandNotesDataGridViewTextBoxColumn";
+            this.brandNotesDataGridViewTextBoxColumn.Width = 92;
             // 
             // delete
             // 
@@ -293,43 +347,29 @@
             this.Update.UseColumnTextForButtonValue = true;
             this.Update.Width = 81;
             // 
-            // brandIDDataGridViewTextBoxColumn
+            // label9
             // 
-            this.brandIDDataGridViewTextBoxColumn.DataPropertyName = "BrandID";
-            this.brandIDDataGridViewTextBoxColumn.HeaderText = "رقم الصنف";
-            this.brandIDDataGridViewTextBoxColumn.Name = "brandIDDataGridViewTextBoxColumn";
-            this.brandIDDataGridViewTextBoxColumn.Width = 120;
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label9.Font = new System.Drawing.Font("Tahoma", 13F);
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Image = ((System.Drawing.Image)(resources.GetObject("label9.Image")));
+            this.label9.Location = new System.Drawing.Point(514, 6);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(80, 52);
+            this.label9.TabIndex = 54;
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // brandNameDataGridViewTextBoxColumn
+            // txt_srch
             // 
-            this.brandNameDataGridViewTextBoxColumn.DataPropertyName = "BrandName";
-            this.brandNameDataGridViewTextBoxColumn.HeaderText = "اسم الصنف";
-            this.brandNameDataGridViewTextBoxColumn.Name = "brandNameDataGridViewTextBoxColumn";
-            this.brandNameDataGridViewTextBoxColumn.Width = 130;
-            // 
-            // brandNotesDataGridViewTextBoxColumn
-            // 
-            this.brandNotesDataGridViewTextBoxColumn.DataPropertyName = "BrandNotes";
-            this.brandNotesDataGridViewTextBoxColumn.HeaderText = "تفاصيل";
-            this.brandNotesDataGridViewTextBoxColumn.Name = "brandNotesDataGridViewTextBoxColumn";
-            this.brandNotesDataGridViewTextBoxColumn.Width = 92;
-            // 
-            // brandsBindingSource
-            // 
-            this.brandsBindingSource.DataSource = typeof(StoreMobileApp.Brands);
-            // 
-            // txt_cat_id
-            // 
-            this.txt_cat_id.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(19)))), ((int)(((byte)(20)))));
-            this.txt_cat_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_cat_id.ForeColor = System.Drawing.Color.White;
-            this.txt_cat_id.Location = new System.Drawing.Point(139, 47);
-            this.txt_cat_id.Name = "txt_cat_id";
-            this.txt_cat_id.ReadOnly = true;
-            this.txt_cat_id.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txt_cat_id.Size = new System.Drawing.Size(144, 30);
-            this.txt_cat_id.TabIndex = 26;
-            this.txt_cat_id.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_srch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_srch.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_srch.Location = new System.Drawing.Point(291, 17);
+            this.txt_srch.Name = "txt_srch";
+            this.txt_srch.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txt_srch.Size = new System.Drawing.Size(217, 29);
+            this.txt_srch.TabIndex = 53;
+            this.txt_srch.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_srch.TextChanged += new System.EventHandler(this.txt_srch_TextChanged);
             // 
             // FrmCatag
             // 
@@ -349,8 +389,10 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.brandsBindingSource)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -366,15 +408,18 @@
         private System.Windows.Forms.Label label1;
         public System.Windows.Forms.TextBox txt_name;
         public System.Windows.Forms.TextBox txt_details;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.BindingSource brandsBindingSource;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.TextBox txt_cat_id;
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn brandIDDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn brandNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn brandNotesDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewButtonColumn delete;
         private System.Windows.Forms.DataGridViewButtonColumn Update;
-        public System.Windows.Forms.TextBox txt_cat_id;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label label9;
+        public System.Windows.Forms.TextBox txt_srch;
     }
 }

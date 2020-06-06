@@ -55,8 +55,33 @@ namespace StoreMobileApp.PresentationLayer
         }
 
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        
+
+        private void txt_srch_TextChanged(object sender, EventArgs e)
         {
+           if(txt_srch.Text==string.Empty)
+            {
+                fill_GridView();
+            }
+           else
+            {
+                dataGridView1.DataSource = DB.Brands.Where(x => x.BrandName.Contains(txt_srch.Text)).ToList();
+            }
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            grview_click(e);
+
+        }
+
+        private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            grview_click(e);
+        }
+        void  grview_click(DataGridViewCellEventArgs e)
+        {
+
             if (dataGridView1.Columns[e.ColumnIndex].Name == "delete")
             {
                 if (MessageBox.Show("تاكيد حذف المنتج ", "مسح العنصر", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
@@ -74,20 +99,7 @@ namespace StoreMobileApp.PresentationLayer
                 txt_name.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
                 txt_details.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
                 btn_add.Enabled = true;
-               
-            }
 
-        }
-
-        private void txt_srch_TextChanged(object sender, EventArgs e)
-        {
-           if(txt_srch.Text==string.Empty)
-            {
-                fill_GridView();
-            }
-           else
-            {
-                dataGridView1.DataSource = DB.Brands.Where(x => x.BrandName.Contains(txt_srch.Text)).ToList();
             }
         }
     }

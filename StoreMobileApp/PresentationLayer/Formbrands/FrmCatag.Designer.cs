@@ -49,22 +49,22 @@
             this.txt_name = new System.Windows.Forms.TextBox();
             this.txt_details = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.brandsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.panel4 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.delete = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.Update = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txt_srch = new System.Windows.Forms.TextBox();
             this.brandIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.brandNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.brandNotesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.delete = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.Update = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txt_srch = new System.Windows.Forms.TextBox();
+            this.brandsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.brandsBindingSource)).BeginInit();
-            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.brandsBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -213,21 +213,6 @@
             this.panel3.Size = new System.Drawing.Size(623, 500);
             this.panel3.TabIndex = 2;
             // 
-            // brandsBindingSource
-            // 
-            this.brandsBindingSource.DataSource = typeof(StoreMobileApp.Brands);
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.panel4.Controls.Add(this.label9);
-            this.panel4.Controls.Add(this.txt_srch);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(623, 58);
-            this.panel4.TabIndex = 16;
-            // 
             // dataGridView1
             // 
             dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(2);
@@ -286,29 +271,11 @@
             this.dataGridView1.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(29)))), ((int)(((byte)(0)))));
             this.dataGridView1.RowTemplate.Height = 30;
             this.dataGridView1.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(623, 442);
             this.dataGridView1.TabIndex = 17;
-            // 
-            // brandIDDataGridViewTextBoxColumn
-            // 
-            this.brandIDDataGridViewTextBoxColumn.DataPropertyName = "BrandID";
-            this.brandIDDataGridViewTextBoxColumn.HeaderText = "رقم الصنف";
-            this.brandIDDataGridViewTextBoxColumn.Name = "brandIDDataGridViewTextBoxColumn";
-            this.brandIDDataGridViewTextBoxColumn.Width = 120;
-            // 
-            // brandNameDataGridViewTextBoxColumn
-            // 
-            this.brandNameDataGridViewTextBoxColumn.DataPropertyName = "BrandName";
-            this.brandNameDataGridViewTextBoxColumn.HeaderText = "اسم الصنف";
-            this.brandNameDataGridViewTextBoxColumn.Name = "brandNameDataGridViewTextBoxColumn";
-            this.brandNameDataGridViewTextBoxColumn.Width = 130;
-            // 
-            // brandNotesDataGridViewTextBoxColumn
-            // 
-            this.brandNotesDataGridViewTextBoxColumn.DataPropertyName = "BrandNotes";
-            this.brandNotesDataGridViewTextBoxColumn.HeaderText = "تفاصيل";
-            this.brandNotesDataGridViewTextBoxColumn.Name = "brandNotesDataGridViewTextBoxColumn";
-            this.brandNotesDataGridViewTextBoxColumn.Width = 92;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
+            this.dataGridView1.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentDoubleClick);
             // 
             // delete
             // 
@@ -347,6 +314,17 @@
             this.Update.UseColumnTextForButtonValue = true;
             this.Update.Width = 81;
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.panel4.Controls.Add(this.label9);
+            this.panel4.Controls.Add(this.txt_srch);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(623, 58);
+            this.panel4.TabIndex = 16;
+            // 
             // label9
             // 
             this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -371,6 +349,31 @@
             this.txt_srch.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_srch.TextChanged += new System.EventHandler(this.txt_srch_TextChanged);
             // 
+            // brandIDDataGridViewTextBoxColumn
+            // 
+            this.brandIDDataGridViewTextBoxColumn.DataPropertyName = "BrandID";
+            this.brandIDDataGridViewTextBoxColumn.HeaderText = "رقم الصنف";
+            this.brandIDDataGridViewTextBoxColumn.Name = "brandIDDataGridViewTextBoxColumn";
+            this.brandIDDataGridViewTextBoxColumn.Width = 120;
+            // 
+            // brandNameDataGridViewTextBoxColumn
+            // 
+            this.brandNameDataGridViewTextBoxColumn.DataPropertyName = "BrandName";
+            this.brandNameDataGridViewTextBoxColumn.HeaderText = "اسم الصنف";
+            this.brandNameDataGridViewTextBoxColumn.Name = "brandNameDataGridViewTextBoxColumn";
+            this.brandNameDataGridViewTextBoxColumn.Width = 130;
+            // 
+            // brandNotesDataGridViewTextBoxColumn
+            // 
+            this.brandNotesDataGridViewTextBoxColumn.DataPropertyName = "BrandNotes";
+            this.brandNotesDataGridViewTextBoxColumn.HeaderText = "تفاصيل";
+            this.brandNotesDataGridViewTextBoxColumn.Name = "brandNotesDataGridViewTextBoxColumn";
+            this.brandNotesDataGridViewTextBoxColumn.Width = 92;
+            // 
+            // brandsBindingSource
+            // 
+            this.brandsBindingSource.DataSource = typeof(StoreMobileApp.Brands);
+            // 
             // FrmCatag
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -389,10 +392,10 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.brandsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brandsBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -87,6 +87,15 @@
     <Compile Include="PresentationLayer\Formdevice\Frmdevice_Operation.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="PresentationLayer\FormReport\FrmAlldevices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FormReport\FrmAlldevices.Designer.cs">
+      <DependentUpon>FrmAlldevices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FormReport\FrmSupReport_Operation.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="PresentationLayer\formsAllcs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,10 +132,10 @@
     <Compile Include="PresentationLayer\frmSupliers.Designer.cs">
       <DependentUpon>frmSupliers.cs</DependentUpon>
     </Compile>
-    <Compile Include="PresentationLayer\FrmSupReport.cs">
+    <Compile Include="PresentationLayer\FormReport\FrmSupReport.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PresentationLayer\FrmSupReport.Designer.cs">
+    <Compile Include="PresentationLayer\FormReport\FrmSupReport.Designer.cs">
       <DependentUpon>FrmSupReport.cs</DependentUpon>
     </Compile>
     <Compile Include="PresentationLayer\Products.cs">
@@ -139,6 +148,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="PresentationLayer\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FormReport\FrmAlldevices.resx">
+      <DependentUpon>FrmAlldevices.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PresentationLayer\formsAllcs.resx">
       <DependentUpon>formsAllcs.cs</DependentUpon>
@@ -158,7 +170,7 @@
     <EmbeddedResource Include="PresentationLayer\frmSupliers.resx">
       <DependentUpon>frmSupliers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PresentationLayer\FrmSupReport.resx">
+    <EmbeddedResource Include="PresentationLayer\FormReport\FrmSupReport.resx">
       <DependentUpon>FrmSupReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PresentationLayer\Products.resx">

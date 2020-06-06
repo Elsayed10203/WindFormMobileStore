@@ -66,3 +66,4 @@ D:\course_replace\_forms_Project\Git_Project\StoreMobileApp\StoreMobileApp\obj\D
 D:\course_replace\_forms_Project\Git_Project\StoreMobileApp\StoreMobileApp\obj\Debug\StoreMobileApp.csproj.CopyComplete
 D:\course_replace\_forms_Project\Git_Project\StoreMobileApp\StoreMobileApp\obj\Debug\StoreMobileApp.exe
 D:\course_replace\_forms_Project\Git_Project\StoreMobileApp\StoreMobileApp\obj\Debug\StoreMobileApp.pdb
+D:\course_replace\_forms_Project\Git_Project\StoreMobileApp\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FormReport.FrmAlldevices.resources

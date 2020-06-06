@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,20 +8,10 @@ using System.Windows.Forms;
 
 namespace StoreMobileApp.PresentationLayer
 {
-    public partial class FrmSupReport : Form
+    public partial class FrmSupReport 
     {
         DataTable dt = new DataTable();
-        Model1 DB = new Model1();
 
-        CustomerReportManag CustMang = new CustomerReportManag();
-        Users SystemUser = LoginMang.LoginNAME();
-        public FrmSupReport()
-        {
-            InitializeComponent();
-            txt_sal_man.Text = SystemUser.UserName;
-            up_table();
-            grid_resiz();
-        }
         void grid_resiz()
         {
             this.dataGridView1.RowHeadersWidth = 39;
@@ -36,8 +24,8 @@ namespace StoreMobileApp.PresentationLayer
         }
         void up_table()
         {
-            dt.Columns.Add("اسم المنتج");
-            dt.Columns.Add("نهاية الضمان");
+            dt.Columns.Add("الباركود");
+            dt.Columns.Add("نوع المنتج");
             dt.Columns.Add("ثمن المنتج");
             dt.Columns.Add("الكمية");
             dt.Columns.Add("المبلغ");
@@ -49,8 +37,8 @@ namespace StoreMobileApp.PresentationLayer
         void up_row()
         {
             DataRow dr = dt.NewRow();
-            dr[0] = txt_prod_nme.Text;
-            dr[1] = pck_expir.Text;
+            dr[0] = txt_parcode.Text;
+            dr[1] = txt_brand.Text;
             dr[2] = txt_prc.Text;
             dr[3] = txt_quant.Text;
             dr[4] = txt_cah.Text;
@@ -61,25 +49,6 @@ namespace StoreMobileApp.PresentationLayer
             clear();
             btn_prod_chooce.Focus();
         }
-        private void button11_Click(object sender, EventArgs e)
-        {
-         
-            frmSupliers frm = new frmSupliers();
-            AddOwnedForm(frm);
-            frm.FormBorderStyle = FormBorderStyle.None;
-            frm.TopLevel = false;
-            frm.Dock = DockStyle.Fill;
-            this.Controls.Add(frm);
-            this.Tag = frm;
-            frm.BringToFront();
-            frm.Show();        
-        }
-
-        private void txt_cah_TextChanged(object sender, EventArgs e)
-        {
-        }
-
-       
         void calculate()
         {
             if (txt_quant.Text != string.Empty && txt_prc.Text != string.Empty)
@@ -96,7 +65,7 @@ namespace StoreMobileApp.PresentationLayer
 
                 }
         }
-      
+
         void total_am()
         {
             try
@@ -113,16 +82,17 @@ namespace StoreMobileApp.PresentationLayer
                 return;
             }
         }
-
-        private void btn_prod_chooce_Click(object sender, EventArgs e)
+        void Handle_Press(KeyPressEventArgs e)
         {
 
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8)
+            {
+                e.Handled = true;
+            }
         }
-
-      
         void clear()
         {
-            txt_prc.Text = txt_prc.Text = txt_prod_nme.Text = txt_quant.Text = txt_disc.Text = string.Empty;
+            txt_prc.Text = txt_prc.Text = txt_parcode.Text = txt_quant.Text = txt_disc.Text = string.Empty;
         }
         void lbl_sum()
         {
@@ -137,47 +107,23 @@ namespace StoreMobileApp.PresentationLayer
             }
             catch { }
         }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void button11_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button11_Click_2(object sender, EventArgs e)
-        {
-            frmSupliers frm = new frmSupliers();
-            AddOwnedForm(frm);
-            frm.FormBorderStyle = FormBorderStyle.None;
-            frm.TopLevel = false;
-            frm.Dock = DockStyle.Fill;
-            this.Controls.Add(frm);
-            this.Tag = frm;
-            frm.BringToFront();
-            frm.Show();
-        }
-      
         void up_ord_det()
         {
             try
             {
-                int id = int.Parse(txt_prod_nme.Text);
-               Devices devic=DB.Devices.Where(x => x.DeviceID == id).SingleOrDefault();
+                int id = int.Parse(txt_parcode.Text);
+                Devices devic = DB.Devices.Where(x => x.DeviceID == id).SingleOrDefault();
                 OrdersDetails ord_det = new OrdersDetails();
                 ord_det.OrderID = int.Parse(txt_ord_id.Text);
                 for (int i = 0; i < dataGridView1.Rows.Count; i++)
                 {
                     ord_det.DeviceID = int.Parse(dataGridView1.Rows[i].Cells[0].Value.ToString());
-                    ord_det.UnitPrice =decimal.Parse( dataGridView1.Rows[i].Cells[2].Value.ToString());
+                    ord_det.UnitPrice = decimal.Parse(dataGridView1.Rows[i].Cells[2].Value.ToString());
                     ord_det.Quantity = int.Parse(dataGridView1.Rows[i].Cells[3].Value.ToString());
                     ord_det.OrderDetailsNotes = txt_descrp.Text;
                     ord_det.DeviceID = devic.DeviceID;
                     ord_det.SellingPrice = decimal.Parse(dataGridView1.Rows[i].Cells[2].Value.ToString());
-                    ord_det.TotalPrice =decimal.Parse( dataGridView1.Rows[i].Cells[4].Value.ToString());
+                    ord_det.TotalPrice = decimal.Parse(dataGridView1.Rows[i].Cells[4].Value.ToString());
                     DB.OrdersDetails.Add(ord_det);
                     DB.SaveChanges();
                 }
@@ -187,10 +133,10 @@ namespace StoreMobileApp.PresentationLayer
         void UPOrder()
         {
             Orders ord = new Orders()
-        {
-            OrderID = int.Parse(txt_ord_id.Text),
+            {
+                OrderID = int.Parse(txt_ord_id.Text),
                 OrderDate = dateTimePicker1.Value,
-                 OrderTotalPrice = decimal.Parse(txt_the_sum.Text),
+                OrderTotalPrice = decimal.Parse(txt_the_sum.Text),
                 CustomerName = txt_cus_fnam.Text,
                 UserID = SystemUser.UserID,
                 OrderNotes = txt_descrp.Text
@@ -198,41 +144,43 @@ namespace StoreMobileApp.PresentationLayer
             DB.Orders.Add(ord);
             DB.SaveChanges();
         }
-        private void button3_Click(object sender, EventArgs e)
+        void SelectFrm(Form frm)
         {
-            UPOrder();
-            up_ord_det();
-            MessageBox.Show("تم الاضافة بنجاح");
-            dt.Clear();
-            dataGridView1.Refresh();
-            txt_the_sum.Text = "";
+            AddOwnedForm(frm);
+            frm.FormBorderStyle = FormBorderStyle.None;
+            frm.TopLevel = false;
+            frm.Dock = DockStyle.Fill;
+            this.Controls.Add(frm);
+            this.Tag = frm;
+            frm.BringToFront();
+            frm.Show();
         }
-
-        private void btn_new_Click(object sender, EventArgs e)
+        void HandleKeyDown(KeyEventArgs e, Control cont)
         {
-            txt_ord_id.Text =CustMang.NewOrderNo().ToString();
-        }
-
-        private void txt_quant_TextChanged_1(object sender, EventArgs e)
-        {
-            txt_cah.Clear();
-            calculate();
-        }
-
-        private void txt_disc_TextChanged_1(object sender, EventArgs e)
-        {
-            txt_totl_prc.Clear();
-            total_am();
-        }
-
-        private void txt_disc_KeyDown_1(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter && txt_disc.Text != string.Empty)
+            if (e.KeyCode == Keys.Enter && txt_quant.Text != string.Empty)
             {
-                up_row();
-                clear();
-                lbl_sum();
+                cont.Focus();
             }
         }
+        void UpdateRow()
+        {
+            try
+            {
+                txt_parcode.Text = this.dataGridView1.CurrentRow.Cells[0].Value.ToString();
+                txt_brand.Text = this.dataGridView1.CurrentRow.Cells[1].Value.ToString();
+                txt_prc.Text = this.dataGridView1.CurrentRow.Cells[2].Value.ToString();
+                txt_quant.Text = this.dataGridView1.CurrentRow.Cells[3].Value.ToString();
+                txt_cah.Text = this.dataGridView1.CurrentRow.Cells[4].Value.ToString();
+                txt_disc.Text = this.dataGridView1.CurrentRow.Cells[5].Value.ToString();
+                txt_totl_prc.Text = this.dataGridView1.CurrentRow.Cells[6].Value.ToString();
+                dataGridView1.Rows.RemoveAt(dataGridView1.CurrentRow.Index);
+                lbl_sum();
+            }
+            catch
+            {
+
+            }
+        }
+
     }
 }

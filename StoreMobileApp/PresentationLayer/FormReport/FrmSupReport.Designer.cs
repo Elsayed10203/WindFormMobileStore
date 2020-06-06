@@ -47,11 +47,14 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.cust_grop = new System.Windows.Forms.GroupBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.txt_descrp = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.button11 = new System.Windows.Forms.Button();
@@ -60,12 +63,11 @@
             this.txt_cus_fnam = new System.Windows.Forms.TextBox();
             this.txt_cust_id = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
             this.btn_prnd = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.btn_new = new System.Windows.Forms.Button();
             this.txt_the_sum = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
@@ -81,7 +83,7 @@
             this.txt_sal_man = new System.Windows.Forms.TextBox();
             this.txt_ord_id = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.pck_expir = new System.Windows.Forms.DateTimePicker();
+            this.txt_brand = new System.Windows.Forms.TextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label9 = new System.Windows.Forms.Label();
@@ -98,9 +100,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.btn_prod_chooce = new System.Windows.Forms.Button();
-            this.txt_prod_nme = new System.Windows.Forms.TextBox();
-            this.txt_descrp = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
+            this.txt_parcode = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -207,6 +207,19 @@
             this.panel3.Size = new System.Drawing.Size(110, 369);
             this.panel3.TabIndex = 32;
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(3, 265);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(104, 83);
+            this.button3.TabIndex = 38;
+            this.button3.Text = "حفظ الفاتورة";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // label22
             // 
             this.label22.Image = ((System.Drawing.Image)(resources.GetObject("label22.Image")));
@@ -266,6 +279,27 @@
             this.cust_grop.TabIndex = 30;
             this.cust_grop.TabStop = false;
             this.cust_grop.Text = "بيانات العميل";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(308, 138);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(62, 22);
+            this.label23.TabIndex = 23;
+            this.label23.Text = "تفاصيل";
+            // 
+            // txt_descrp
+            // 
+            this.txt_descrp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_descrp.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_descrp.Location = new System.Drawing.Point(7, 122);
+            this.txt_descrp.Multiline = true;
+            this.txt_descrp.Name = "txt_descrp";
+            this.txt_descrp.Size = new System.Drawing.Size(267, 55);
+            this.txt_descrp.TabIndex = 22;
+            this.txt_descrp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label20
             // 
@@ -352,19 +386,6 @@
             this.groupBox4.TabIndex = 26;
             this.groupBox4.TabStop = false;
             // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(3, 265);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(104, 83);
-            this.button3.TabIndex = 38;
-            this.button3.Text = "حفظ الفاتورة";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // btn_prnd
             // 
             this.btn_prnd.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -375,6 +396,7 @@
             this.btn_prnd.TabIndex = 32;
             this.btn_prnd.Text = "حذف السطر المحدد";
             this.btn_prnd.UseVisualStyleBackColor = true;
+            this.btn_prnd.Click += new System.EventHandler(this.btn_prnd_Click);
             // 
             // button5
             // 
@@ -386,6 +408,18 @@
             this.button5.TabIndex = 33;
             this.button5.Text = "تعديل الجزء المحدد";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button2.Location = new System.Drawing.Point(124, 11);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 29);
+            this.button2.TabIndex = 28;
+            this.button2.Text = "المجموع";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // btn_new
             // 
@@ -406,17 +440,6 @@
             this.txt_the_sum.Name = "txt_the_sum";
             this.txt_the_sum.Size = new System.Drawing.Size(97, 26);
             this.txt_the_sum.TabIndex = 29;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button2.Location = new System.Drawing.Point(124, 11);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 29);
-            this.button2.TabIndex = 28;
-            this.button2.Text = "المجموع";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -573,7 +596,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.pck_expir);
+            this.groupBox3.Controls.Add(this.txt_brand);
             this.groupBox3.Controls.Add(this.groupBox5);
             this.groupBox3.Controls.Add(this.label9);
             this.groupBox3.Controls.Add(this.txt_prc);
@@ -589,7 +612,7 @@
             this.groupBox3.Controls.Add(this.label11);
             this.groupBox3.Controls.Add(this.label10);
             this.groupBox3.Controls.Add(this.btn_prod_chooce);
-            this.groupBox3.Controls.Add(this.txt_prod_nme);
+            this.groupBox3.Controls.Add(this.txt_parcode);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(163, 221);
             this.groupBox3.Name = "groupBox3";
@@ -599,16 +622,14 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "المنتجات";
             // 
-            // pck_expir
+            // txt_brand
             // 
-            this.pck_expir.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pck_expir.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.pck_expir.Location = new System.Drawing.Point(500, 49);
-            this.pck_expir.Name = "pck_expir";
-            this.pck_expir.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.pck_expir.RightToLeftLayout = true;
-            this.pck_expir.Size = new System.Drawing.Size(107, 27);
-            this.pck_expir.TabIndex = 43;
+            this.txt_brand.Location = new System.Drawing.Point(498, 49);
+            this.txt_brand.Name = "txt_brand";
+            this.txt_brand.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txt_brand.Size = new System.Drawing.Size(109, 26);
+            this.txt_brand.TabIndex = 44;
+            this.txt_brand.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // groupBox5
             // 
@@ -627,6 +648,7 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 22);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(741, 184);
             this.dataGridView1.TabIndex = 1;
             // 
@@ -662,7 +684,7 @@
             this.label14.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label14.Size = new System.Drawing.Size(107, 27);
             this.label14.TabIndex = 38;
-            this.label14.Text = "نهاية الضمان";
+            this.label14.Text = "الماركة";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label15
@@ -689,6 +711,7 @@
             this.txt_disc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_disc.TextChanged += new System.EventHandler(this.txt_disc_TextChanged_1);
             this.txt_disc.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_disc_KeyDown_1);
+            this.txt_disc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_disc_KeyPress);
             // 
             // label16
             // 
@@ -759,6 +782,8 @@
             this.txt_quant.TabIndex = 30;
             this.txt_quant.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_quant.TextChanged += new System.EventHandler(this.txt_quant_TextChanged_1);
+            this.txt_quant.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_quant_KeyDown);
+            this.txt_quant.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_quant_KeyPress);
             // 
             // label11
             // 
@@ -783,7 +808,7 @@
             this.label10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label10.Size = new System.Drawing.Size(107, 28);
             this.label10.TabIndex = 27;
-            this.label10.Text = "اسم المنتج";
+            this.label10.Text = "الباركود";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btn_prod_chooce
@@ -791,7 +816,7 @@
             this.btn_prod_chooce.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btn_prod_chooce.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_prod_chooce.ForeColor = System.Drawing.Color.White;
-            this.btn_prod_chooce.Location = new System.Drawing.Point(711, 49);
+            this.btn_prod_chooce.Location = new System.Drawing.Point(710, 48);
             this.btn_prod_chooce.Name = "btn_prod_chooce";
             this.btn_prod_chooce.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.btn_prod_chooce.Size = new System.Drawing.Size(51, 35);
@@ -799,36 +824,16 @@
             this.btn_prod_chooce.Text = "...";
             this.btn_prod_chooce.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btn_prod_chooce.UseVisualStyleBackColor = false;
+            this.btn_prod_chooce.Click += new System.EventHandler(this.btn_prod_chooce_Click_1);
             // 
-            // txt_prod_nme
+            // txt_parcode
             // 
-            this.txt_prod_nme.Location = new System.Drawing.Point(604, 49);
-            this.txt_prod_nme.Name = "txt_prod_nme";
-            this.txt_prod_nme.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txt_prod_nme.Size = new System.Drawing.Size(109, 26);
-            this.txt_prod_nme.TabIndex = 25;
-            this.txt_prod_nme.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txt_descrp
-            // 
-            this.txt_descrp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_descrp.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_descrp.Location = new System.Drawing.Point(7, 122);
-            this.txt_descrp.Multiline = true;
-            this.txt_descrp.Name = "txt_descrp";
-            this.txt_descrp.Size = new System.Drawing.Size(267, 55);
-            this.txt_descrp.TabIndex = 22;
-            this.txt_descrp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(280, 138);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(98, 22);
-            this.label23.TabIndex = 23;
-            this.label23.Text = "اسم العميل";
+            this.txt_parcode.Location = new System.Drawing.Point(604, 49);
+            this.txt_parcode.Name = "txt_parcode";
+            this.txt_parcode.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txt_parcode.Size = new System.Drawing.Size(109, 26);
+            this.txt_parcode.TabIndex = 25;
+            this.txt_parcode.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // FrmSupReport
             // 
@@ -915,11 +920,9 @@
         public System.Windows.Forms.TextBox txt_sal_man;
         public System.Windows.Forms.TextBox txt_ord_id;
         private System.Windows.Forms.GroupBox groupBox3;
-        public System.Windows.Forms.DateTimePicker pck_expir;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txt_prc;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TextBox txt_disc;
@@ -928,12 +931,14 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txt_cah;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox txt_quant;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button btn_prod_chooce;
-        private System.Windows.Forms.TextBox txt_prod_nme;
         private System.Windows.Forms.Label label23;
         public System.Windows.Forms.TextBox txt_descrp;
+        public System.Windows.Forms.TextBox txt_prc;
+        public System.Windows.Forms.TextBox txt_parcode;
+        public System.Windows.Forms.TextBox txt_brand;
+        public System.Windows.Forms.TextBox txt_quant;
     }
 }

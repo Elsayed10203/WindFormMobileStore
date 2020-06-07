@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using StoreMobileApp.PresentationLayer;
+using StoreMobileApp.PresentationLayer.FormAllOrders;
 
 namespace StoreMobileApp
 {
@@ -170,6 +171,11 @@ namespace StoreMobileApp
         {
             FormContainer(new Frmdevice());
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FormContainer(new FrmOrdersAll());
         }
 
         private void button4_Click(object sender, EventArgs e)

@@ -43,6 +43,24 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.14.0.1016.290\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -75,17 +93,38 @@
     <Compile Include="DataAccessLayer\SuppliesDetails.cs" />
     <Compile Include="DataAccessLayer\sysdiagrams.cs" />
     <Compile Include="DataAccessLayer\Users.cs" />
-    <Compile Include="PresentationLayer\Form1.cs">
+    <Compile Include="PresentationLayer\FormAllOrders\FrmOrdersAll.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PresentationLayer\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="PresentationLayer\FormAllOrders\FrmOrdersAll.Designer.cs">
+      <DependentUpon>FrmOrdersAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FormAllOrders\FrmOrdersAll_Operation.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="PresentationLayer\Formbrands\Formcatag_Operationcs.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="PresentationLayer\FormContainer\formsAllcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FormContainer\formsAllcs.Designer.cs">
+      <DependentUpon>formsAllcs.cs</DependentUpon>
+    </Compile>
     <Compile Include="PresentationLayer\Formdevice\Frmdevice_Operation.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FormMain\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FormMain\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FormOrderDtails\FrmOrderDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FormOrderDtails\FrmOrderDetails.Designer.cs">
+      <DependentUpon>FrmOrderDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="PresentationLayer\FormReport\FrmAlldevices.cs">
       <SubType>Form</SubType>
@@ -96,11 +135,11 @@
     <Compile Include="PresentationLayer\FormReport\FrmSupReport_Operation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PresentationLayer\formsAllcs.cs">
+    <Compile Include="PresentationLayer\FormServices\FrmService.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PresentationLayer\formsAllcs.Designer.cs">
-      <DependentUpon>formsAllcs.cs</DependentUpon>
+    <Compile Include="PresentationLayer\FormServices\FrmService.Designer.cs">
+      <DependentUpon>FrmService.cs</DependentUpon>
     </Compile>
     <Compile Include="PresentationLayer\frmAddSuplier.cs">
       <SubType>Form</SubType>
@@ -120,12 +159,6 @@
     <Compile Include="PresentationLayer\Formdevice\Frmdevice.Designer.cs">
       <DependentUpon>Frmdevice.cs</DependentUpon>
     </Compile>
-    <Compile Include="PresentationLayer\FrmService.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PresentationLayer\FrmService.Designer.cs">
-      <DependentUpon>FrmService.cs</DependentUpon>
-    </Compile>
     <Compile Include="PresentationLayer\frmSupliers.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,16 +177,43 @@
     <Compile Include="PresentationLayer\Products.Designer.cs">
       <DependentUpon>Products.cs</DependentUpon>
     </Compile>
+    <Compile Include="PresentationLayer\Reports\Report1cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Reports\Report1cs.Designer.cs">
+      <DependentUpon>Report1cs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="PresentationLayer\Form1.resx">
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="obj\Debug\StoreMobileApp.Form1.resources" />
+    <EmbeddedResource Include="obj\Debug\StoreMobileApp.PresentationLayer.FormReport.FrmAlldevices.resources" />
+    <EmbeddedResource Include="obj\Debug\StoreMobileApp.PresentationLayer.formsAllcs.resources" />
+    <EmbeddedResource Include="obj\Debug\StoreMobileApp.PresentationLayer.frmAddSuplier.resources" />
+    <EmbeddedResource Include="obj\Debug\StoreMobileApp.PresentationLayer.FrmCatag.resources" />
+    <EmbeddedResource Include="obj\Debug\StoreMobileApp.PresentationLayer.Frmdevice.resources" />
+    <EmbeddedResource Include="obj\Debug\StoreMobileApp.PresentationLayer.FrmService.resources" />
+    <EmbeddedResource Include="obj\Debug\StoreMobileApp.PresentationLayer.frmSupliers.resources" />
+    <EmbeddedResource Include="obj\Debug\StoreMobileApp.PresentationLayer.FrmSupReport.resources" />
+    <EmbeddedResource Include="obj\Debug\StoreMobileApp.PresentationLayer.Products.resources" />
+    <EmbeddedResource Include="obj\Debug\StoreMobileApp.Properties.Resources.resources" />
+    <EmbeddedResource Include="PresentationLayer\FormAllOrders\FrmOrdersAll.resx">
+      <DependentUpon>FrmOrdersAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FormContainer\formsAllcs.resx">
+      <DependentUpon>formsAllcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FormMain\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FormOrderDtails\FrmOrderDetails.resx">
+      <DependentUpon>FrmOrderDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PresentationLayer\FormReport\FrmAlldevices.resx">
       <DependentUpon>FrmAlldevices.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PresentationLayer\formsAllcs.resx">
-      <DependentUpon>formsAllcs.cs</DependentUpon>
+    <EmbeddedResource Include="PresentationLayer\FormServices\FrmService.resx">
+      <DependentUpon>FrmService.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PresentationLayer\frmAddSuplier.resx">
       <DependentUpon>frmAddSuplier.cs</DependentUpon>
@@ -164,9 +224,6 @@
     <EmbeddedResource Include="PresentationLayer\Formdevice\Frmdevice.resx">
       <DependentUpon>Frmdevice.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PresentationLayer\FrmService.resx">
-      <DependentUpon>FrmService.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="PresentationLayer\frmSupliers.resx">
       <DependentUpon>frmSupliers.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,13 +233,34 @@
     <EmbeddedResource Include="PresentationLayer\Products.resx">
       <DependentUpon>Products.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Reports\Report1cs.resx">
+      <DependentUpon>Report1cs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <None Include="bin\Debug\StoreMobileApp.exe.config" />
+    <None Include="obj\Debug\AssemblyReference.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\StoreMobileApp.csproj.CopyComplete" />
+    <None Include="obj\Debug\StoreMobileApp.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\StoreMobileApp.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\StoreMobileApp.csprojAssemblyReference.cache" />
     <None Include="packages.config" />
+    <None Include="packages\EntityFramework.6.2.0\Content\net40\App.config.transform" />
+    <None Include="packages\EntityFramework.6.2.0\Content\net40\Web.config.transform" />
+    <None Include="packages\EntityFramework.6.2.0\EntityFramework.6.2.0.nupkg" />
+    <None Include="packages\EntityFramework.6.2.0\tools\EntityFramework.psd1" />
+    <None Include="packages\EntityFramework.6.2.0\tools\EntityFramework.psm1" />
+    <None Include="packages\EntityFramework.6.2.0\tools\init.ps1" />
+    <None Include="packages\EntityFramework.6.2.0\tools\install.ps1" />
     <None Include="Properties\DataSources\Brands.datasource" />
     <None Include="Properties\DataSources\Devices.datasource" />
+    <None Include="Properties\DataSources\Orders.datasource" />
+    <None Include="Properties\DataSources\OrdersDetails.datasource" />
+    <None Include="Properties\DataSources\Supplies.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -199,7 +277,43 @@
   <ItemGroup>
     <None Include="Materiales_Iconos\Mobile-Menu-Icon.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+    <Content Include="bin\Debug\StoreMobileApp.exe" />
+    <Content Include="bin\Debug\StoreMobileApp.pdb" />
+    <Content Include="obj\Debug\StoreMobileApp.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\StoreMobileApp.exe" />
+    <Content Include="obj\Debug\StoreMobileApp.pdb" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net40\EntityFramework.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net40\EntityFramework.SqlServer.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net40\EntityFramework.SqlServer.xml" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net40\EntityFramework.xml" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.xml" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net45\EntityFramework.xml" />
+    <Content Include="packages\EntityFramework.6.2.0\tools\about_EntityFramework.help.txt" />
+    <Content Include="packages\EntityFramework.6.2.0\tools\EntityFramework.PowerShell.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\tools\EntityFramework.PowerShell.Utility.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\tools\migrate.exe" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icono-cliente.png" />
   </ItemGroup>
@@ -214,6 +328,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\close1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\StoreMobileApp\v16\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

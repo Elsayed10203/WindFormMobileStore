@@ -98,8 +98,9 @@ namespace StoreMobileApp.PresentationLayer
         {
             try
             {
+                
                 double sum = 0;
-                for (int i = 0; i < dataGridView1.Rows.Count; i++)
+                for (int i = 0; i < dataGridView1.Rows.Count-1; i++)
                 {
                     sum += double.Parse(dataGridView1.Rows[i].Cells[6].Value.ToString());
                     txt_the_sum.Text = sum.ToString();
@@ -111,22 +112,24 @@ namespace StoreMobileApp.PresentationLayer
         {
             try
             {
-                int id = int.Parse(txt_parcode.Text);
-                Devices devic = DB.Devices.Where(x => x.DeviceID == id).SingleOrDefault();
-                OrdersDetails ord_det = new OrdersDetails();
-                ord_det.OrderID = int.Parse(txt_ord_id.Text);
-                for (int i = 0; i < dataGridView1.Rows.Count; i++)
+                /* int id = int.Parse(txt_parcode.Text);
+                 Devices devic = DB.Devices.Where(x => x.DeviceID == id).SingleOrDefault();*/
+
+                for (int i = 0; i < dataGridView1.Rows.Count-1; i++)
                 {
+                    OrdersDetails ord_det = new OrdersDetails();
+                    ord_det.OrderID = int.Parse(txt_ord_id.Text);
                     ord_det.DeviceID = int.Parse(dataGridView1.Rows[i].Cells[0].Value.ToString());
                     ord_det.UnitPrice = decimal.Parse(dataGridView1.Rows[i].Cells[2].Value.ToString());
                     ord_det.Quantity = int.Parse(dataGridView1.Rows[i].Cells[3].Value.ToString());
                     ord_det.OrderDetailsNotes = txt_descrp.Text;
-                    ord_det.DeviceID = devic.DeviceID;
+                    //ord_det.DeviceID = devic.DeviceID;
+                    ord_det.DeviceID = int.Parse(dataGridView1.Rows[i].Cells[0].Value.ToString());
                     ord_det.SellingPrice = decimal.Parse(dataGridView1.Rows[i].Cells[2].Value.ToString());
                     ord_det.TotalPrice = decimal.Parse(dataGridView1.Rows[i].Cells[4].Value.ToString());
                     DB.OrdersDetails.Add(ord_det);
                     DB.SaveChanges();
-                }
+                } 
             }
             catch { }
         }

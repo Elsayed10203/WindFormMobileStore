@@ -78,17 +78,16 @@ namespace StoreMobileApp.PresentationLayer
             btn_new_Click(null,null);
             try
             {
-   UPOrder();
+             UPOrder();
             up_ord_det();
             MessageBox.Show("تم الاضافة بنجاح");
             dt.Clear();
             dataGridView1.Refresh();
             txt_the_sum.Text = "";
             }
-            catch
+           catch
             {
-                MessageBox.Show("فم بادخال البيانات كاملة");
-               
+                MessageBox.Show("قم بادخال البيانات كاملة");
             }
          
         }
@@ -116,7 +115,7 @@ namespace StoreMobileApp.PresentationLayer
             {
                 up_row();
                 clear();
-                lbl_sum();
+               lbl_sum();
             }
         }
 

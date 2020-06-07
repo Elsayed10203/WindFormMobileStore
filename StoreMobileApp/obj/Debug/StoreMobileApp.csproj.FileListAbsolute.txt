@@ -67,3 +67,240 @@ D:\course_replace\_forms_Project\Git_Project\StoreMobileApp\StoreMobileApp\obj\D
 D:\course_replace\_forms_Project\Git_Project\StoreMobileApp\StoreMobileApp\obj\Debug\StoreMobileApp.exe
 D:\course_replace\_forms_Project\Git_Project\StoreMobileApp\StoreMobileApp\obj\Debug\StoreMobileApp.pdb
 D:\course_replace\_forms_Project\Git_Project\StoreMobileApp\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FormReport.FrmAlldevices.resources
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.csprojAssemblyReference.cache
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.exe
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.pdb
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\bin\Debug\StoreMobileApp.exe.config
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\bin\Debug\StoreMobileApp.exe
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\bin\Debug\StoreMobileApp.pdb
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\bin\Debug\EntityFramework.xml
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.formsAllcs.resources
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.Form1.resources
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FormReport.FrmAlldevices.resources
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FrmService.resources
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.frmAddSuplier.resources
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FrmCatag.resources
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.Frmdevice.resources
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.frmSupliers.resources
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FrmSupReport.resources
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.Products.resources
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.Properties.Resources.resources
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.csproj.GenerateResource.cache
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.csproj.CoreCompileInputs.cache
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.csproj.CopyComplete
+D:\course_replace\_forms_Project\WindFormMobileStore-master (3)\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FormAllOrders.FrmOrdersAll.resources
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\StoreMobileApp.exe.config
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\StoreMobileApp.exe
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\StoreMobileApp.pdb
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\EnvDTE.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\stdole.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\EnvDTE80.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.Build.Tasks.Core.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\VSLangProj.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\VSLangProj80.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Newtonsoft.Json.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.MSXML.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.Build.Utilities.Core.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.Build.Framework.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\VSLangProj2.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\EntityFramework.xml
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.csprojAssemblyReference.cache
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.exe.config
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FormAllOrders.FrmOrdersAll.resources
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.formsAllcs.resources
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.Form1.resources
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FormReport.FrmAlldevices.resources
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FrmService.resources
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.frmAddSuplier.resources
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FrmCatag.resources
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.Frmdevice.resources
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.frmSupliers.resources
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FrmSupReport.resources
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.Products.resources
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.Reports.Report1cs.resources
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.Properties.Resources.resources
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.csproj.GenerateResource.cache
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.csproj.CoreCompileInputs.cache
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.csproj.CopyComplete
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.exe
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.pdb
+D:\WindFormMobileStore-master\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FormOrderDtails.FrmOrderDetails.resources
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\StoreMobileApp.exe.config
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\StoreMobileApp.exe
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\StoreMobileApp.pdb
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\EnvDTE.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\stdole.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\EnvDTE80.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\VSLangProj.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\VSLangProj80.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.MSXML.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\VSLangProj2.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\EntityFramework.xml
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.csprojAssemblyReference.cache
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.exe.config
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FormAllOrders.FrmOrdersAll.resources
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.formsAllcs.resources
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.Form1.resources
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FormOrderDtails.FrmOrderDetails.resources
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FormReport.FrmAlldevices.resources
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FrmService.resources
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.frmAddSuplier.resources
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FrmCatag.resources
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.Frmdevice.resources
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.frmSupliers.resources
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.FrmSupReport.resources
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.Products.resources
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.PresentationLayer.Reports.Report1cs.resources
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.Properties.Resources.resources
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.csproj.GenerateResource.cache
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.csproj.CoreCompileInputs.cache
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.csproj.CopyComplete
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.exe
+C:\Users\MAX\Source\Repos\WindFormMobileStore\StoreMobileApp\obj\Debug\StoreMobileApp.pdb

@@ -76,7 +76,7 @@ namespace StoreMobileApp.PresentationLayer
 
         private void button2_Click(object sender, EventArgs e)
         {
-        int id=int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
+            int id=int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
             MessageBox.Show($"supplier is : {id}");
 
 
@@ -95,6 +95,11 @@ namespace StoreMobileApp.PresentationLayer
             frm.txt_cust_id.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
             frm.txt_cus_fnam.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
             this.Close();
+        }
+
+        private void btnEditar_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -2,9 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\StoreMobileApp",
-    "\\StoreMobileApp\\PresentationLayer",
-    "\\StoreMobileApp\\PresentationLayer\\FormServices"
+    "\\StoreMobileApp\\PresentationLayer"
   ],
-  "SelectedNode": "\\StoreMobileApp\\PresentationLayer\\Products.Designer.cs",
   "PreviewInSolutionExplorer": false
 }
